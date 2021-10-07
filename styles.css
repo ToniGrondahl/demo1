@@ -1,7 +1,15 @@
 body {
-    background: rgb{109, 196, 218};
-
-    background-image:
+    background-image: url("oluttuoppi.jpeg");
     background-size: 100%;
-    
+    background: rgb{109, 196, 218}; 
+    color: rgb(48, 12, 82); 
+    }
+
+* {
+    box-sizing: border-box; 
+    }
+
+nav { 
+    float: left; 
+    width: 30% 
 }
