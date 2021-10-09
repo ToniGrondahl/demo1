@@ -1,20 +1,21 @@
 body {
-    background-color:cornflowerblue;
+    background-color:grey
 }
-
 .reunus {
     border-width: 2px;
-    border-style: dotted; 
-    color: red;
+    border-style: solid; 
+    color: black
 }
 
 h1    {
-        font-size: 20px;  
+        font-size: 50px;  
       
       }
 
 p      {
-        font-size: 18px;
+        font-size: 25px;
+        background-color:white;
+        border-radius: 25%
       }
 
 a img { border-width 2px; 
