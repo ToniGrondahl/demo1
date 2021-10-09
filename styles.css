@@ -1,15 +1,34 @@
 body {
+    background: rgb{109, 196, 218}; 
+
     background-image: url("oluttuoppi.jpeg");
     background-size: 100%;
-    background: rgb{109, 196, 218}; 
-    color: rgb(48, 12, 82); 
+    color: rgb(48, 12, 82);
     }
 
-* {
-    box-sizing: border-box; 
-    }
-
-nav { 
-    float: left; 
-    width: 30% 
+.reunus {
+    border-width: 2px;
+    border-style: dotted; 
+    color: red;
 }
+
+h1    {
+        font-size: 12px;  
+      
+      }
+
+p      {
+        font-size: 12px;
+      }
+
+
+a img { border-width 2px; 
+border-style: solid;
+color: white;
+border-radius: 5px;} 
+
+xa {border: 10px solid yellow;}
+ximg {border: 10px solid purple;} 
+
+#kuva1 {height: 100px;}
+#kuva2 {height: 50px;}
