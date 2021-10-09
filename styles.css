@@ -8,20 +8,19 @@ body {
 }
 
 h1    {
-        font-size: 50px;  
+        font-size: 40px;  
       
       }
 
 p      {
         font-size: 25px;
         background-color:white;
-        border-radius: 25%
+        border-radius: 25%;
+        width: 200px;
+        height: 150px;  
       }
 
 a img { border-width 2px; 
 border-style: solid;
 color: white;
 border-radius: 5px;} 
-
-#kuva1 {height: 100px;}
-#kuva2 {height: 50px;}
