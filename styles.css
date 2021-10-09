@@ -1,10 +1,6 @@
 body {
-    background: rgb{109, 196, 218}; 
-
-    background-image: url("oluttuoppi.jpeg");
-    background-size: 100%;
-    color: rgb(48, 12, 82);
-    }
+    background-color:cornflowerblue;
+}
 
 .reunus {
     border-width: 2px;
