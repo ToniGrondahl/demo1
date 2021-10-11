@@ -9,7 +9,7 @@ body {
 
 h1    {
         font-size: 40px; 
-        border: 5px red;
+        border: 10px red;
         padding: 25px;
       }
 
@@ -25,3 +25,17 @@ a img { border-width 2px;
 border-style: solid;
 color: white;
 border-radius: 5px;} 
+
+* {
+    box-sizing: border-box;
+  }
+  
+  .row {
+    display: flex;
+  }
+  
+  /* Create three equal columns that sits next to each other */
+  .column {
+    flex: 33.33%;
+    padding: 5px;
+  }
