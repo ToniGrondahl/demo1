@@ -8,16 +8,17 @@ body {
 }
 
 h1    {
-        font-size: 40px;  
-      
+        font-size: 40px; 
+        border: 5px red;
+        padding: 25px;
       }
 
 p      {
-        font-size: 25px;
+        font-size: 15px;
         background-color:white;
         border-radius: 10%;
-        width: 200px;
-        height: 150px;  
+        width: 100px;
+        height: 100px;  
       }
 
 a img { border-width 2px; 
