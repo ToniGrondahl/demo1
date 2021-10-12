@@ -1,12 +1,13 @@
-.header {
+#header {
             background-color: red;
+            text-align: center;
         }
 
-.nav {
+#nav {
         background-color: yellow;
     }
 
-.section {
+#section {
             background-color: green;
         }
 
@@ -14,4 +15,5 @@ body {
     width: 90%;
     margin-left: auto;
     margin-right: auto;
+    background-color: black;
     }  
