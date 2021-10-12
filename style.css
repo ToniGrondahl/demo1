@@ -1,17 +1,20 @@
 .header {
             background-color: red;
             text-align: center;
-            border: 5px black;
+            border-color: black;
+            border-width: 5px;
         }
 
 .nav {
         background-color: yellow;
-        border: 3px black;
+        border-color:black;
+        border-width: 3px;
     }
 
 .section {
             background-color: green;
-            border: 5px black
+            border-color: black;
+            border-width: 5px;
         }
 
 body {
