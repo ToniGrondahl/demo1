@@ -1,20 +1,14 @@
 .header {
             background-color: red;
             text-align: center;
-            border-color: black;
-            border-width: 5px;
         }
 
 .nav {
         background-color: yellow;
-        border-color:black;
-        border-width: 3px;
     }
 
 .section {
             background-color: green;
-            border-color: black;
-            border-width: 5px;
         }
 
 body {
