@@ -1,4 +1,4 @@
-header {
+#header {
     background-color: black;
     padding: 30px;
     text-align: center;
@@ -21,3 +21,11 @@ main {
     padding: 20px;
     }
 
+/* mouse over link */
+a:hover {
+    color: red;
+}
+
+
+
+footer {clear: both;}
