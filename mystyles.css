@@ -1,1 +1,23 @@
+header {
+    background-color: black;
+    padding: 30px;
+    text-align: center;
+    font-size: 35px;
+    color: white;
+    }
+
+nav {
+    float: left;
+    width: 30%;
+    font-family: arial;
+    background-color: white;
+    color: black;
+    }
+
+main {
+    float: left;
+    width: 70%;
+    background-color: blue;
+    padding: 20px;
+    }
 
