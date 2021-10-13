@@ -26,6 +26,9 @@ a:hover {
     color: red;
 }
 
+#article {
+    text-align: center;
+}
 
 
 footer {clear: both;}
