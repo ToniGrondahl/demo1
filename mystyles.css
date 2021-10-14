@@ -46,15 +46,6 @@ a:hover {
 
 }
 
-
-
-/* Clear floats after the columns */
-section::after {
-    content: "";
-    display: table;
-    clear: both;
-}
-
 p {
     font-size: 25px;
     background-color:white;
