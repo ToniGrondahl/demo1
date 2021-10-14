@@ -46,7 +46,7 @@ a:hover {
 }
 
 #aside {
-    float: right;
+    float: center;
     padding: 20px;
     width: 70px;
 }
