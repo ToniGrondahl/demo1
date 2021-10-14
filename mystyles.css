@@ -16,6 +16,7 @@ body {
     color: black;
     }
 
+/* Create two columns/boxes that floats next to each other */
 nav {
     float: left;
     width: 30%;
@@ -41,8 +42,14 @@ a:hover {
 
 #article {
     text-align: center;
-    font-size: 25px;
 }
 
+p {
+    font-size: 25px;
+    background-color:white;
+    border-radius: 15%;
+    width: 400px;
+    height: 50px;  
+}
 
 footer {clear: both;}
