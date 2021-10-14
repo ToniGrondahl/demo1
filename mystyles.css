@@ -29,7 +29,7 @@ nav {
     nav a {text-decoration: none;}
 
 main {
-    float: left;
+    float: center;
     width: 70%;
     background-color:lightgreen;
     padding: 20px;
