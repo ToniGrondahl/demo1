@@ -53,17 +53,18 @@ p {
     height: 50px;  
 }
 
-img { border-width 2px; 
+img { 
+    float: center;
+    border-width 2px; 
     border-style: solid;
     color: white;
     border-radius: 5px;
-    float: center;
     } 
 
 #footer {
     background-color:black;
+    padding: 20px;
     text-align: center;
     font-size: 20px;
-    padding: 20px;
-    color:white
+    color: white;
     }
