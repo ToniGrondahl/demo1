@@ -15,7 +15,7 @@ body {
     border-style: solid;
     color: black;
     }
-    
+
 nav {
     float: left;
     width: 30%;
@@ -41,6 +41,7 @@ a:hover {
 
 #article {
     text-align: center;
+    font-size: 25px;
 }
 
 
