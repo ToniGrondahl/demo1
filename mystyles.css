@@ -17,6 +17,7 @@ body {
 nav {
     float: left;
     width: 30%;
+    padding: 10px;
     font-family: arial;
     background-color: white;
     color: black;
@@ -56,7 +57,7 @@ img { border-width 2px;
     border-style: solid;
     color: white;
     border-radius: 5px;
-    float: right;
+    float: center;
     } 
 
 footer {
