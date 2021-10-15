@@ -9,7 +9,7 @@
  * {
      box-sizing: border-box;
     }
-    
+
 body {
     background-color: lightblue;
     }
@@ -52,21 +52,15 @@ a:hover {
 }
 
 p {
-    font-size: 25px;
-    background-color:white;
-    border-radius: 15%;
-    width: 400px;
-    height: 50px;  
+    font-size: 15px;
 }
-
-img { 
-    float: left;
-    border-width 2px; 
-    border-style: solid;
-    color: white;
-    border-radius: 5px;
-    } 
 
 #footer {
     background-color:black;
+    text-align: center;
+    color:white;
     }
+
+h3 {
+    font-size: 25px;
+}
