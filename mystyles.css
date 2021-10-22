@@ -60,3 +60,7 @@ p {
 h3 {
     font-size: 25px;
 }
+
+{
+overflow-wrap: break-word;
+}
