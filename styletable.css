@@ -25,6 +25,10 @@ table {
     padding-bottom: 5px;
 }
 
+form {
+    padding: 5px;
+}
+
 th {background-color: cadetblue;}
 
 .reunat-pois {border: none;
