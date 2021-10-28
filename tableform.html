@@ -6,7 +6,6 @@
     <title>Taulukot</title>
     <meta charset="utf-8" />
 </head>
-
 <body>
 
     <main>
@@ -46,33 +45,34 @@
         <form action="/action_page.php">
             <fieldset>
                 <legend>Henkilötiedot:</legend>
-            <label for="fname">Etunimi:</label>
-            <input type="text" id="fname" name="fname"><br></br>
-            <label for="lname">Sukunimi:</label>
-            <input type="text" id="lname" name="lname"><br></br>
-            <label for="username">Käyttäjänimi:</label>
-            <input type="username" id="username" name="username"><br></br>
-            <label for="salasana">Salasana:</label>
-            <input type="salasana" id="salasana" name="salasana">br></br>
-            <label for="email">Sähköposti:</label>
-            <input type="text" id="email" name="email"><br></br>
-            <label for="birthday">Syntymäaika:</label>
-            <input type="date" id="birthday" name="birthday"><br><br>
             <label for="sukupuoli"> Valitse sukupuoli:</label>
             <select name="sukupuoli" id="sukupuoli">
                 <option value="mies">Mies</option>
                 <option value="nainen">Nainen</option>
             </select>
+            <label for="fname">Etunimi:</label>
+            <input type="lname" id="fname" name="fname"><br></br>
+            <label for="lname">Sukunimi:</label>
+            <input type="lname" id="lname" name="lname"><br></br>
+            <label for="email">Sähköposti:</label>
+            <input type="email" id="email" name="email"><br></br>
+            <label for="username">Käyttäjänimi:</label>
+            <input type="username" id="username" name="username"><br></br>
+            <label for="salasana">Salasana:</label>
+            <input type="salasana" id="salasana" name="salasana"><br></br>
+            <label for="birthday">Syntymäaika:</label>
+            <input type="date" id="birthday" name="birthday"><br><br>
             </fieldset>
             <input type="submit" value="Add new user">
           </form>
-
+        <p>Palautelaatikko</p>
           <form action="/action_page.php">
             <textarea name="message"rows="4" width="80"></textarea>
             <br></br>
+            <a href="https://www.w3schools.com/action_page.php">
             <input type="submit">
+            </a>
           </form>
-
           <form action="/action_page.php">
             <input type="checkbox" id="newsletter" name="newsletter" value="newsletter">
             <label for="vehicle1">Tilaa uutiskirje!</label><br>
