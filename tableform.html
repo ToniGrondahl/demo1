@@ -46,14 +46,16 @@
         <form action="/action_page.php">
             <fieldset>
                 <legend>Henkilötiedot:</legend>
-            <label for="fname">First name:</label>
+            <label for="fname">Etunimi:</label>
             <input type="text" id="fname" name="fname"><br></br>
-            <label for="lname">Last name:</label>
+            <label for="lname">Sukunimi:</label>
             <input type="text" id="lname" name="lname"><br></br>
-            <label for="username">Username:</label>
+            <label for="username">käyttäjänimi:</label>
             <input type="username" id="username" name="username"><br></br>
-            <label for="email">email:</label>
+            <label for="email">sähköposti:</label>
             <input type="text" id="email" name="email"><br></br>
+            <label for="birthday">Syntymäaika:</label>
+            <input type="date" id="birthday" name="birthday"><br><br>
             <label for="sukupuoli"> Valitse sukupuoli:</label>
             <select name="sukupuoli" id="sukupuoli">
                 <option value="volvo">Mies</option>
@@ -70,8 +72,8 @@
           </form>
 
           <form action="/action_page.php">
-            <input type="checkbox" id="newsletter" name="newsletter" value="xxx">
-            <label for="vehicle1"> Sign up for newsletter</label><br>
+            <input type="checkbox" id="newsletter" name="newsletter" value="newsletter">
+            <label for="vehicle1">Tilaa uutiskirje!</label><br>
             <input type="submit" value="Submit">
           </form>
 
