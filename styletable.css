@@ -1,0 +1,27 @@
+main {
+    background-color: grey;
+}
+
+table, td, th {
+    border: 1px solid;
+    padding: 5px;
+}
+
+table {
+    border-collapse: collapse; 
+    border: none;
+}
+
+th {background-color: cadetblue;}
+
+.reunat-pois {border: none;
+    background-color: none;
+}
+
+th {
+    color: red;
+}
+
+td {
+    text-align: center;
+}
