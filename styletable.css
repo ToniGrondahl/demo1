@@ -3,7 +3,8 @@ body {
 }
 
 main {
-    background-color:white;
+    background-color: lightblue;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 caption {
@@ -12,6 +13,7 @@ caption {
 
 header {
     font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 table, td, th {
@@ -34,7 +36,7 @@ form {
     padding-bottom: 5px;
 }
 
-th {background-color: cadetblue;}
+th {background-color: lightgreen;
 
 .reunat-pois {border: none;
     background-color: none;
