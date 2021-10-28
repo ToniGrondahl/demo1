@@ -14,30 +14,34 @@
         </header>
 
         <table>
-            <caption>Meidän joukkue</caption>
+            <caption>Taulukko</caption>
             <tr>
                 <td rowspan="2" class="reunat-pois"></td>
-                <th colspan="2">Osallistujat</th>
+                <th colspan="2">Käyttäjät</th>
             </tr>
             <tr>
-                <th>Nimi</th>
-                <th>Ammatti</th>
+                <th>Etunimi</th>
+                <th>Sukunimi</th>
+                <th>Ikä</th>
             </tr>
 
             <tr>
                 <th rowspan="5">Kaikki</th>
             </tr>
             <tr>
-                <td>Matti Meikäläinen</td>
-                <td>Jääkiekkoilija</td>
+                <td>Matti</td>
+                <td>Meikäläinen</td>
+                <td>25</td>
             </tr>
             <tr>
-                <td>Jaska Jokunen</td>
-                <td>Koripalloilija</td>
+                <td>Jaska</td>
+                <td>Jokunen</td>
+                <td>30</td>
             </tr>
             <tr>
-                <td>Pekka Puupää</td>
-                <td>Jalkapalloilija</td>
+                <td>Pekka</td>
+                <td>Puupää</td>
+                <td>40</td>
             </tr>
         </table>
         <br></br>
@@ -45,11 +49,6 @@
         <form action="/action_page.php">
             <fieldset>
                 <legend>Henkilötiedot:</legend>
-            <label for="sukupuoli"> Valitse sukupuoli:</label>
-            <select name="sukupuoli" id="sukupuoli">
-                <option value="mies">Mies</option>
-                <option value="nainen">Nainen</option>
-            </select>
             <label for="fname">Etunimi:</label>
             <input type="lname" id="fname" name="fname"><br></br>
             <label for="lname">Sukunimi:</label>
@@ -62,6 +61,11 @@
             <input type="salasana" id="salasana" name="salasana"><br></br>
             <label for="birthday">Syntymäaika:</label>
             <input type="date" id="birthday" name="birthday"><br><br>
+            <label for="sukupuoli"> Valitse sukupuoli:</label>
+            <select name="sukupuoli" id="sukupuoli">
+                <option value="mies">Mies</option>
+                <option value="nainen">Nainen</option>
+            </select>
             </fieldset>
             <input type="submit" value="Add new user">
           </form>
