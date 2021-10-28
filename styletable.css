@@ -12,7 +12,6 @@ caption {
 
 header {
     font-size: 30px;
-    text-align: center;
 }
 
 table, td, th {
@@ -28,6 +27,10 @@ table {
 
 form {
     padding: 5px;
+    padding-bottom: 5px;
+}
+
+.checkbox {
     padding-bottom: 5px;
 }
 
