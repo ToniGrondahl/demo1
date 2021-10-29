@@ -42,19 +42,14 @@ form {
     padding-bottom: 5px;
 }
 
-th {background-color: lightgreen;
-
-.reunat-pois {border: none;
-    background-color: none;
-}
-
 th {
+    background-color: lightgreen; 
     color: red;
 }
 
+
 td {
     text-align: center;
-    background-color: white;
 }
 
 p {
