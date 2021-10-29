@@ -5,15 +5,12 @@
 }
 
 h2 {
-    text-shadow: 50px 40px 5px 
-    color: black
-}
-
-header {
-    background-image:
+    text-shadow: 50px 40px 5px #525252;
+    padding-top: 10px;
 }
 
 div {
+    background-image: url('img_Red-sunset.jpeg');
     background-size: cover;
 }
 
@@ -22,8 +19,8 @@ a:link {
     transition: 2s
 }
 
-a:visitedx {
-    color: purple;
+a:visited {
+    color: black
 }
 
 a:hover {
