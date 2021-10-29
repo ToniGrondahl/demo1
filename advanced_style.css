@@ -1,12 +1,12 @@
 #boxshadow {
     border: 1px solid;
     padding: 10px;
-    box-shadow: 50px 40px 5px 5px #525252;
+    box-shadow: 10px 20px 3px 3px #525252;
 }
 
 h2 {
-    text-shadow: 50px 40px 5px #525252;
-    padding-top: 10px;
+    text-shadow: 10px 20px 3px #525252;
+    padding-top: 20px;
 }
 
 div {
@@ -25,7 +25,7 @@ a:visited {
 
 a:hover {
     color: red;
-    width: 200px;
+    width: 200px;te
 }
 
 body {
