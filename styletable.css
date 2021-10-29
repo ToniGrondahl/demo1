@@ -47,6 +47,9 @@ th {
     color: red;
 }
 
+tr {
+    background-color: white;
+}
 
 td {
     text-align: center;
@@ -54,5 +57,4 @@ td {
 
 p {
     padding: 5px;
-    font-size: 5px;
 }
