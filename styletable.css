@@ -17,6 +17,10 @@ header {
     padding: 5px;
 }
 
+h1 {
+    font-style: oblique;
+}
+
 table, td, th {
     border: 1px solid;
     padding: 5px;
@@ -51,4 +55,9 @@ th {
 td {
     text-align: center;
     background-color: white;
+}
+
+p {
+    padding: 5px;
+    font-size: 5px;
 }
