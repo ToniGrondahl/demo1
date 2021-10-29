@@ -7,6 +7,7 @@
 h2 {
     text-shadow: 10px 20px 3px #525252;
     padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 div {
@@ -26,10 +27,6 @@ a:visited {
 a:hover {
     color: red;
     width: 200px;te
-}
-
-body {
-    background-color:white;
 }
 
 @media only screen and (max-width: 800px) {
