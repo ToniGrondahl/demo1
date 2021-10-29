@@ -5,7 +5,8 @@
 }
 
 h2 {
-    text-shadow: 50px 40px 5px #525252;
+    text-shadow: 50px 40px 5px 
+    color: black
 }
 
 header {
@@ -21,7 +22,7 @@ a:link {
     transition: 2s
 }
 
-a:visited {
+a:visitedx {
     color: purple;
 }
 
@@ -31,7 +32,7 @@ a:hover {
 }
 
 body {
-    background-color: grey;
+    background-color:white;
 }
 
 @media only screen and (max-width: 800px) {
@@ -39,5 +40,3 @@ body {
         background-color: black;
         color: white;
     }
-
-
