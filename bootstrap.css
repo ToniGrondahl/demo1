@@ -2,6 +2,10 @@ li {
     display: inline;
 }
 
+.navbar {
+    color: black;
+}
+
 h1 { 
     font-size: 20px;
     text-align: center;
@@ -13,4 +17,8 @@ div {
 
 .btn {
     align-items: center;
+}
+
+img {
+    padding: 20px;
 }
