@@ -4,5 +4,10 @@ li {
 
 h1 { 
     font-size: 20px;
-    
+    text-align: center;
 }
+
+.jumbo {
+    padding: 10px;
+}
+
