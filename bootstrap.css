@@ -2,6 +2,10 @@ li {
     display: inline;
 }
 
+nav { 
+    color:black;
+}
+
 h1 { 
     font-size: 20px;
     text-align: center;
