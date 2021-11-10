@@ -17,8 +17,8 @@ div {
     padding: 10px;
 }
 
-button {
-    align-items: center;
+.jumbotron .container button {
+    text-align: center;
 }
 
 img {
