@@ -1,11 +1,13 @@
 #boxshadow {
+    background: url('Red-sunset.jpeg');
+    background-size: cover;
     border: 1px solid;
     padding: 10px;
     box-shadow: 10px 20px 3px 3px #525252;
 }
 
 h2 {
-    text-shadow: 10px 20px 3px #525252;
+    text-shadow: 10px 20px 3px 3px #525252;
     padding-top: 20px;
     padding-bottom: 20px;
 }
