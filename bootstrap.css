@@ -4,7 +4,12 @@ li {
 }
 
 nav { 
-    color:black;
+    color: black;
+
+}
+
+.navbar.navbar-inverse .navbar-nav > .active > a:focus {
+    background-color: black;
 }
 
 h1 { 
