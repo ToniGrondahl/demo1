@@ -1,5 +1,5 @@
 #boxshadow {
-    background-imagex: ('Auringonlasku.jpeg');
+    background-image: ('Auringonlasku.jpeg');
     background-size: cover;
     border: 1px solid;
     box-shadow: 10px 20px 3px 3px #525252;
@@ -32,7 +32,7 @@ a:hover {
 }
 
     @media only screen and (max-width: 800px) {
-        body a:link {
+        body {
             background-color: black;
             color: white;   
         }
