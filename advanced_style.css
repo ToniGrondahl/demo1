@@ -15,6 +15,7 @@ h2 {
 div  {
     background: url(Red-sunset.jpeg);
     background-size: cover;
+    size: 100px;
 }
 
 a:link {
