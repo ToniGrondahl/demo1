@@ -2,8 +2,6 @@
     border: 1px solid;
     padding: 10px;
     box-shadow: 10px 20px 3px 3px #525252;
-    background-image: url('img_Red-sunset.jpeg');
-    background-size: cover;
 }
 
 h2 {
@@ -12,7 +10,7 @@ h2 {
     padding-bottom: 20px;
 }
 
-div {
+div  {
     background-image: url('img_Red-sunset.jpeg');
     background-size: cover;
 }
@@ -32,7 +30,7 @@ a:hover {
 }
 
 @media only screen and (max-width: 800px) {
-    body  {
+    body a:link {
         background-color: black;
-        color: white;
+        color: white;   
     }
