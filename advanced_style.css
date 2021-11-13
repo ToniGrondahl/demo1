@@ -31,8 +31,8 @@ a:hover {
     width: 200px;
 }
 
-@media only screen and (max-width: 800px) {
-    body a:link {
-        background-color: black;
-        color: white;   
-    }
+    @media only screen and (max-width: 800px) {
+        body a:link {
+            background-color: black;
+            color: white;   
+        }
