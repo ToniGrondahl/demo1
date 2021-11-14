@@ -26,7 +26,6 @@ div {
     text-align: center;
     padding-left: 10px;
     padding-right: 10px;
-    width: 80%;
 }
 
 
@@ -34,3 +33,7 @@ img {
     padding: 40px;
 }
 
+body {
+    padding-right: 30px;
+    padding-left: 30px;
+}
