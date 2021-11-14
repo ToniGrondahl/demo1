@@ -31,3 +31,8 @@ div {
 img {
     padding: 40px;
 }
+
+body {
+    padding-left: 20px;
+    padding-right: 20px;
+}
