@@ -28,14 +28,13 @@ nav {
 }
 
 p {
-    padding: 30px;
-    xpadding-top: 20px;
-    xpadding-right: 20px;
+    padding-top: 20px;
+    padding-right: 30px;
 }
 
 img {
     max-width: 150%;
     max-height: 150%;
-    padding: 30px;
-    xpadding-left: 30px;
+    padding-left: 30px;
+    padding-top: 30px;
 }
