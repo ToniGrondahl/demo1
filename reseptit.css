@@ -32,3 +32,7 @@ p {
     xpadding-left: 30px;
     xpadding-right: 30px;
 }
+
+hr {
+    color: black;
+}
