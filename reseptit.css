@@ -5,13 +5,18 @@ h1 {
     padding: 20px;
 }
 
+h2 {
+    text-align: center;
+    padding-left: 30px;
+}
+
 * {
     box-sizing: border-box;
 }
 
 .col {
-    padding-right: 50px;
-    padding-left: 50px;
+    padding-right: 
+    padding-left: 
     height: 300px;
 }
 
@@ -22,11 +27,11 @@ h1 {
 }
 
 img {
-    padding-left: 50px;
-    padding-right: 50px;
+    padding-left: 
+    padding-right: 
 }
 
 p {
-    padding-right: 50px;
-    padding-right: 50px;
+    padding-right: 
+    padding-right: 
 }
