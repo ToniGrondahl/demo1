@@ -37,3 +37,8 @@ body {
     overflow-y: scroll;
     overflow-x: hidden;
 }
+
+.HorizontalLine {  
+    border: none; 
+    border-bottom: 1px solid black;  
+   }
