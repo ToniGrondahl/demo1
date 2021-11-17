@@ -7,7 +7,6 @@ h1 {
 
 h2 {
     text-align: center;
-    padding-left: 30px;
 }
 
 * {
@@ -27,11 +26,9 @@ h2 {
 }
 
 img {
-    padding-left: 
-    padding-right: 
+    padding: 20px;
 }
 
 p {
-    padding-right: 
-    padding-right: 
+    padding: 20px;
 }
