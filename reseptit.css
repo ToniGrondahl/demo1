@@ -30,3 +30,8 @@ img {
 p {
     padding: 20px;
 }
+
+body {
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
