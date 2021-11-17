@@ -16,7 +16,7 @@ h2 {
 .col {
     padding-right: 
     padding-left: 
-    height: 300px;
+    height: 
 }
 
 .row:after {
@@ -26,7 +26,7 @@ h2 {
 }
 
 img {
-    padding: 20px;
+    padding-left: 20px;
 }
 
 p {
