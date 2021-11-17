@@ -9,10 +9,6 @@ h2 {
     text-align: center;
 }
 
-h3 {
-    text-align: center;
-}
-
 * {
     box-sizing: border-box;
 }
@@ -38,8 +34,4 @@ p {
 body {
     overflow-y: scroll;
     overflow-x: hidden;
-}
-
-#footer {
-    text-align: center;
 }
