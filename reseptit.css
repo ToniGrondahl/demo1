@@ -24,9 +24,8 @@ h1 {
 }
 
 img {
-    width: 25%; 
     float: left; 
   }
-  p {
-    width: 25%;
+
+p {
     float: right;
