@@ -9,10 +9,7 @@ h1 {
     box-sizing: border-box;
 }
 
-.column {
-    float: left;
-    width: 50%;
-    padding: 30px;
+.col {
     padding-right: 50px;
     padding-left: 50px;
     height: 300px;
@@ -26,5 +23,10 @@ h1 {
 
 img {
     padding-left: 50px;
+    padding-right: 50px;
+}
+
+p {
+    padding-right: 50px;
     padding-right: 50px;
 }
