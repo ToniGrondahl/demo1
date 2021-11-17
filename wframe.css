@@ -45,6 +45,7 @@ img {
     padding-top: 30px;
 }
 
-hr {
-    color: black;
+body {
+    overflow-y: scroll;
+    overflow-x: hidden;
 }
