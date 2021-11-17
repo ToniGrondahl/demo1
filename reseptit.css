@@ -24,3 +24,7 @@ h1 {
     clear: both;
 }
 
+img {
+    padding-left: 50px;
+    padding-right: 50px;
+}
