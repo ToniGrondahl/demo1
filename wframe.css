@@ -6,12 +6,12 @@ h1 {
 }
 
 nav {
-    padding: 10px;
-    font-family: Arial, Helvetica, sans-serif;
+    xpadding: 10px;
+    xfont-family: Arial, Helvetica, sans-serif;
 }
 
 link {
-    padding: 10px;
+    xpadding: 10px;
     font-family: Arial, Helvetica, sans-serif;
 }
 
