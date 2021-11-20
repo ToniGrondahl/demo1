@@ -20,11 +20,11 @@ link {
 }
 
 .column {
-    float: left;
-    width: 50%;
-    padding: 30px;
-    padding-right: 20px;
-    height: 300px;
+    xfloat: left;
+    xwidth: 50%;
+    xpadding: 30px;
+    xpadding-right: 20px;
+    xheight: 300px;
 }
 
 .row:after {
