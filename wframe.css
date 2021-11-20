@@ -15,18 +15,6 @@ link {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-* {
-    xbox-sizing: border-box;
-}
-
-.column {
-    xfloat: left;
-    xwidth: 50%;
-    xpadding: 30px;
-    xpadding-right: 20px;
-    xheight: 300px;
-}
-
 .row:after {
     content: "";
     display: table;
