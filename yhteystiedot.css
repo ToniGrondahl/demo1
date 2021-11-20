@@ -13,5 +13,9 @@ img {
     padding-right: 50px;
     padding-left: 30px;
     padding-top: 50px;
+    padding-bottom: 30px;
 }
 
+div {
+    padding-left: 30px;
+}
