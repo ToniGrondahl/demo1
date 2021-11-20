@@ -25,11 +25,6 @@ h2 {
     color: white;
 }
 
-.row {
-    background-color: black;
-    color: white;
-}
-
 .row:after {
     content: "";
     display: table;
@@ -47,9 +42,4 @@ p {
 
 body {
     width:auto;
-    overflow-y: scroll;
-    overflow-x: scroll;
-    background-color:lightslategrey;
-}
-
 
