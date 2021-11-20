@@ -16,9 +16,9 @@ link {
 }
 
 .row:after {
-    content: "";
-    display: table;
-    clear: both;
+    xcontent: "";
+    xdisplay: table;
+    xclear: both;
 }
 
 p {
