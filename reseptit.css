@@ -5,18 +5,8 @@ h1 {
     padding: 20px;
 }
 
-h2 {
-    xtext-align: center;
-}
-
-* {
-    xbox-sizing: border-box;
-}
-
 .col {
-    padding-right: 20px;
-    xborder-color: black;
-    xborder-width: 1px;
+    xpadding-right: 20px;
 }
 
 .row:after {
@@ -27,12 +17,8 @@ h2 {
 
 img {
     padding-top: 20px;
-    xpadding-left: 30px;
 }
 
 p {
     padding-top: 20px;
 }
-
-body {
-    xwidth:auto;
