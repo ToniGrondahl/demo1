@@ -17,7 +17,7 @@ p {
 }
 
 body {
-    xbackground-color:paleturquoise;
+    background-image: url('food stock image.JPEG');
 }
 
 img {
@@ -28,7 +28,7 @@ img {
 }
 
 label {
-    padding-left: 10px;
+    padding-left: 5px;
 }
 
 form {
