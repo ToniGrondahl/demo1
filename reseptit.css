@@ -19,6 +19,10 @@ p {
     padding-top: 20px;
 }
 
+body {
+    background-image: url('food stock image.JPEG');
+}
+
 #wrapper {
     width: 80%;
     margin: 0 auto;
