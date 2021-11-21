@@ -20,15 +20,14 @@
             <a class="nav-link" href="#">Etusivu<span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="/Reseptit/" class='search'>Reseptit</a>
+            <a class="nav-link" href='/Reseptit/' class='search'>Reseptit</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">yhteystiedot</a>
+            <a class="nav-link" href='/yhteystiedot/'>yhteystiedot</a>
           </li>
         </ul>
       </div>
     </nav>
-
 
       <div id="header">
           <h1>Etusivu</h1>
@@ -53,4 +52,10 @@
         </div>
         </div>
       </main>
+      <form action="/action_page.php">
+        <input type="checkbox" id="newsletter" name="newsletter" value="newsletter">
+        <label for="newsletter">Tilaa uutiskirje uusista resepteistä!</label><br>
+        <input type="submit" value="Lähetä">
+      </form>
     </body>
+    </html>

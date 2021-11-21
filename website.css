@@ -5,3 +5,7 @@ a {
 h1 {
     text-shadow: 10px 20px 3px #525252;
 }
+
+body {
+    background-color:paleturquoise;
+}
