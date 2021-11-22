@@ -10,6 +10,11 @@ h1 {
     padding: 20px;
 }
 
+h3 {
+    text-align: center;
+    font-style: oblique;
+}
+
 .row:after {
     content: "";
     display: table;
@@ -33,3 +38,4 @@ body {
     margin: 0 auto;
     background-color: #ffffff;
  }
+
