@@ -1,10 +1,15 @@
-.navbar a{
+xnavbar a{
+    font-size: 20px;
+    color: white;
+}
+
+a {
     font-size: 20px;
     color: white;
 }
 
 .navbar{
-    background-color: black;
+    xbackground-color: black;
 }
 
 .navbar .nav-item .nav-link{
@@ -13,7 +18,6 @@
 }
 
 .navbar .nav-item .nav-link{
-    content:"";
     position: absolute;
     left: 0;
     right: 0;
