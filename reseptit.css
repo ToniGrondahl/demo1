@@ -51,8 +51,7 @@ body {
  li {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
-    color: white;
-    background-color: #404040;
+    color: grey;
     float: left;
     position: relative;
     padding: 10px 20px;
