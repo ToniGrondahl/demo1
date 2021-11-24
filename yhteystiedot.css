@@ -2,6 +2,12 @@ a {
     font-size: 25px;
 }
 
+.left {
+    width: 40%;
+    height: 40%;
+    text-align: left;
+}
+
 h1 {
     text-shadow: 7px 3px 4px #525252;
     font-size: 70px;
