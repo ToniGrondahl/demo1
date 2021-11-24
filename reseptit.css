@@ -81,7 +81,7 @@ body {
     margin: 0;
   }
 
-  a:hover::after {
+  .container a:hover::after {
     content: "";
     position: absolute;
     left: 25%;
