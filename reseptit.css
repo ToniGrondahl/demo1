@@ -4,6 +4,11 @@ a {
     text-align: center;
 }
 
+.left {
+    width: 5%;
+    height: 5%;
+}
+
 h1 {
     text-shadow: 7px 3px 4px #525252;
     font-size: 70px;
