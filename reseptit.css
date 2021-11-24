@@ -98,3 +98,7 @@ footer {
     color: white;
     padding-top: 10px;
 }
+
+button {
+    size: 20px;
+}
