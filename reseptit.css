@@ -91,3 +91,7 @@ body {
     transition: all .5s;
     border: 1px solid white;
   }
+
+  footer {
+      color: black;
+  }
