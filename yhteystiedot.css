@@ -1,5 +1,5 @@
 a {
-    font-size: 30px;
+    font-size: 25px;
 }
 
 h1 {
@@ -48,6 +48,7 @@ li {
    float: left;
    position: relative;
    overflow: hidden;
+   padding-right: 30px;
  }
  
  li::after {

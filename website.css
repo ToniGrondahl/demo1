@@ -58,6 +58,7 @@ li {
    float: left;
    position: relative;
    overflow: hidden;
+   padding-right: 30px;
  }
  
  li::after {
