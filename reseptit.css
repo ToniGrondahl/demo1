@@ -84,7 +84,7 @@ body {
 
   a:hover::after {
     content: "";
-    position: absolute;
+    position:absolute;
     left: 25%;
     right: 25%;
     bottom: 0;
