@@ -87,6 +87,6 @@ body {
     left: 25%;
     right: 25%;
     bottom: 0;
-    transition: 1s;
+    transition: all .5s;
     border: 1px solid white;
   }
