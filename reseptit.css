@@ -54,6 +54,7 @@ body {
     float: left;
     position: relative;
     overflow: hidden;
+    padding-right: 30px;
   }
   
   li::after {
@@ -81,7 +82,7 @@ body {
     margin: 0;
   }
 
-  a:hover::before {
+  a:hover::after {
     content: "";
     position: absolute;
     left: 25%;
