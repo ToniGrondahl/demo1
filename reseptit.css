@@ -92,4 +92,7 @@ body {
     border: 1px solid white;
   }
 
-  
+footer {
+    text-align: center;
+    color: white;
+}
