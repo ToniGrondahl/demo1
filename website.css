@@ -32,6 +32,11 @@ h1 {
     height:450px;
     text-align: center;
   }
+
+  .slides_container img {
+      text-align: center;
+      margin: 0 auto;
+  }
   
   /* Add a pointer when hovering over the thumbnail images */
   .cursor {
