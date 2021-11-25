@@ -184,6 +184,24 @@ li {
    width: 100%;
  }
 
+ .sr-only {
+    content: "";
+    position: absolute;
+    left: 7%;
+    right: 25%;
+    bottom: 0;
+    border: 2px solid white;
+ }
+
+ .navborder {
+    content: "";
+    position: absolute;
+    left: 7%;
+    right: 25%;
+    bottom: 0;
+    border: 2px solid white;
+ }
+
  a:hover::after {
     content: "";
     position: absolute;
@@ -205,14 +223,14 @@ li {
 }
 
 #main {
-    width: 400px;
-    height: 100px;
-    border: 1px solid #c3c3c3;
-    display: flex;
-    justify-content: center;
+    xwidth: 400px;
+    xheight: 100px;
+   xborder: 1px solid #c3c3c3;
+    xdisplay: flex;
+    xjustify-content: center;
   }
   
   #main div {
-    width: 70px;
-    height: 70px;
+    xwidth: 70px;
+    xheight: 70px;
   }
