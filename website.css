@@ -3,11 +3,16 @@ a {
     text-align: center;
 }
 
+.nav-item {
+    text-align: center;
+}
+
 .left {
     width: 15%;
     height: 15%;
     text-align: left;
     padding-right: 30px;
+    padding-bottom: 10px;
 }
 
 h1 {
