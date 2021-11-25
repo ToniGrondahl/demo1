@@ -33,6 +33,11 @@ h1 {
     text-align: center;
   }
 
+  .slideimg {
+      width: 450px;
+      height: 450px;
+  }
+
   .slider_container div, .slides_container img {
       text-align: center;
       margin: 0 auto; // center
