@@ -88,6 +88,10 @@ body {
     margin: 0;
   }
 
+  a:active {
+      border: 1px solid white;
+  }
+
   a:hover::after {
     content: "";
     position:absolute;
