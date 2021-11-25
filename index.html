@@ -36,94 +36,69 @@
       </div>
       <hr>
       <main>
-<!-- Container for the image gallery -->
-<div class="container">
 
-  <!-- Full-width images with number text -->
-  <div class="mySlides">
-    <div class="numbertext">1 / 6</div>
-    <div class="d-flex p-2"><img src="puuroslide.JPG" style="width:100%"></div>
-  </div>
 
-  <div class="mySlides">
-    <div class="numbertext">2 / 6</div>
-      <img src="wrapslide.JPG" style="width:100%">
-  </div>
 
-  <div class="mySlides">
-    <div class="numbertext">3 / 6</div>
-      <img src="makaroonilaatikkoslide.JPG" style="width:100%">
-  </div>
+<div class="slideshow-container">
 
-  <div class="mySlides">
-    <div class="numbertext">4 / 6</div>
-      <img src="burgerslide.JPG" style="width:100%">
-  </div>
+<div class="mySlides fade">
+  <div class="numbertext">1 / 3</div>
+  <img src="img_nature_wide.jpg" style="width:100%">
+  <div class="text">Caption Text</div>
+</div>
 
-  <div class="mySlides">
-    <div class="numbertext">5 / 6</div>
-      <img src="kanaslide.JPG" style="width:100%">
-  </div>
+<div class="mySlides fade">
+  <div class="numbertext">2 / 3</div>
+  <img src="img_snow_wide.jpg" style="width:100%">
+  <div class="text">Caption Two</div>
+</div>
 
-    <!-- Next and previous buttons -->
-    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-    <a class="next" onclick="plusSlides(1)">&#10095;</a>
-  
-    <!-- Image text -->
-    <div class="caption-container">
-      <p id="caption"></p>
-    </div>
-  
-    <!-- Thumbnail images -->
-    <div class="row">
-      <div class="column">
-        <img class="demo cursor" src="puuro.jpg" style="width:100%" onclick="currentSlide(1)" alt="Hedelmäinen kaurapuuro">
-      </div>
-      <div class="column">
-        <img class="demo cursor" src="wrap.jpg" style="width:100%" onclick="currentSlide(2)" alt="Kalkkunawrap">
-      </div>
-      <div class="column">
-        <img class="demo cursor" src="makaroonilaatikko.jpg" style="width:100%" onclick="currentSlide(3)" alt="Makaroonilaatikko">
-      </div>
-      <div class="column">
-        <img class="demo cursor" src="burger.jpg" style="width:100%" onclick="currentSlide(4)" alt="Naudanlihapurilainen">
-      </div>
-      <div class="column">
-        <img class="demo cursor" src="kana.jpg" style="width:100%" onclick="currentSlide(5)" alt="Uunibroileri">
-      </div>
-    </div>
-  </div>
-  
-  <script>
-    var slideIndex = 1;
-    showSlides(slideIndex);
-    
-    function plusSlides(n) {
-      showSlides(slideIndex += n);
-    }
-    
-    function currentSlide(n) {
-      showSlides(slideIndex = n);
-    }
-    
-    function showSlides(n) {
-      var i;
-      var slides = document.getElementsByClassName("mySlides");
-      var dots = document.getElementsByClassName("demo");
-      var captionText = document.getElementById("caption");
-      if (n > slides.length) {slideIndex = 1}
-      if (n < 1) {slideIndex = slides.length}
-      for (i = 0; i < slides.length; i++) {
-          slides[i].style.display = "none";
-      }
-      for (i = 0; i < dots.length; i++) {
-          dots[i].className = dots[i].className.replace(" active", "");
-      }
-      slides[slideIndex-1].style.display = "block";
-      dots[slideIndex-1].className += " active";
-      captionText.innerHTML = dots[slideIndex-1].alt;
-    }
-    </script>
+<div class="mySlides fade">
+  <div class="numbertext">3 / 3</div>
+  <img src="img_mountains_wide.jpg" style="width:100%">
+  <div class="text">Caption Three</div>
+</div>
+
+<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+<a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span> 
+</div>
+
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+</script>
 
         <div class="container">
             <div class="row">
