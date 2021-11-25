@@ -174,7 +174,8 @@ li {
  }
  
  li:hover {
-   xbackground-color: #4f4f4f;
+   background-color: #4f4f4f;
+   border-radius: 10%;
  }
 
  li:hover::after {
