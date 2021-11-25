@@ -3,6 +3,10 @@ a {
     color: black;
 }
 
+a:hover {
+    color:greenyellow;
+}
+
 .left {
     width: 40%;
     height: 40%;
