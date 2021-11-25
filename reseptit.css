@@ -51,7 +51,7 @@ body {
 #wrapper {
     width: 80%;
     margin: 0 auto;
-    background-color:lightcyan;
+    background-color:seashell;
  }
 
  .nav .current {
@@ -115,7 +115,7 @@ html {
 }
 
 body {
-    background-color:wheat
+    background-color: lightcyan;
 }
 
 .thumbnail:hover {
