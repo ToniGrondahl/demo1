@@ -4,7 +4,8 @@ a {
 }
 
 .nav-link {
-    text-align: center;
+    display: flex;
+    justify-content: center;
 }
 
 .left {
