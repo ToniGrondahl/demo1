@@ -79,7 +79,7 @@ body {
   }
 
   li:hover::after {
-    width: 100%;
+    xwidth: 100%;
     xborder: 1px solid white;
 
   }
@@ -98,7 +98,7 @@ body {
     content: "";
     position:absolute;
     left: 7%;
-    right: 10%;
+    right: 7%;
     bottom: 0;
     transition: all .5s;
     border: 2px solid white;;
