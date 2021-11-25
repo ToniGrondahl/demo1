@@ -93,7 +93,7 @@ h1 {
   
   /* Fading animation */
   .mySlides {
-    animation-name:none
+    animation-name:  none;
     animation-duration: 5s;
   }
   
