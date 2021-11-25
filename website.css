@@ -30,6 +30,7 @@ h1 {
     display: none;
     width: 50%; 
     height:450px;
+    text-align: center;
   }
   
   /* Add a pointer when hovering over the thumbnail images */
