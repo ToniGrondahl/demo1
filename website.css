@@ -233,3 +233,9 @@ li {
     xwidth: 70px;
     xheight: 70px;
   }
+
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
