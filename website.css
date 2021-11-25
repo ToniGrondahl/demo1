@@ -33,7 +33,7 @@ h1 {
     text-align: center;
   }
 
-  .slides_container img {
+  .slider_container div, .slides_container img {
       text-align: center;
       margin: 0 auto;
   }
