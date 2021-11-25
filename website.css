@@ -22,7 +22,7 @@ h1 {
   
           /* Slideshow container */
 .slideshow-container {
-    max-width: 500px;
+    max-width: 400px;
     position: relative;
     margin: auto;
   }
@@ -112,7 +112,6 @@ h1 {
     .prev, .next,.text {font-size: 11px}
   }
   
-  .active,
   .demo:hover {
     opacity: 1;
   }
@@ -121,6 +120,7 @@ p {
     xpadding-left: 20px;
     xpadding-top: 30px;
     float: right;
+    text-align: right;
 }
 
 body {
