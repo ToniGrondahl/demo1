@@ -23,7 +23,6 @@ h1 {
   /* Position the image container (needed to position the left and right arrows) */
   .container {
     position: relative;
-    max-width: 500px;
   }
   
   /* Hide the images by default */
@@ -37,6 +36,7 @@ h1 {
   .slider_container div, .slides_container img {
       text-align: center;
       margin: 0 auto; // center
+      max-width: 500px;
   }
   
   /* Add a pointer when hovering over the thumbnail images */
