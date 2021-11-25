@@ -3,9 +3,10 @@ a {
 }
 
 .left {
-    width: 20%;
-    height: 20%;
+    width: 10%;
+    height: 10%;
     text-align: left;
+    padding-right: 30px;
 }
 
 h1 {
