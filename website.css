@@ -172,11 +172,6 @@ li {
    transition: width 0.5s ease 0s;
    position: absolute;
  }
- 
- li:hover {
-   background-color: #4f4f4f;
-   border-radius: 10%;
- }
 
  li:hover::after {
    width: 100%;
