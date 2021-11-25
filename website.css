@@ -93,7 +93,7 @@ h1 {
   /* Fading animation */
   .fade {
     -webkit-animation-name: fade;
-    x-webkit-animation-duration: 1.5s;
+    -webkit-animation-duration: 1.5s;
     animation-name: fade;
     xanimation-duration: 1.5s;
   }
