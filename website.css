@@ -35,7 +35,7 @@ h1 {
 
   .slider_container div, .slides_container img {
       text-align: center;
-      margin: 0 auto;
+      margin: 0 auto; // center
   }
   
   /* Add a pointer when hovering over the thumbnail images */
