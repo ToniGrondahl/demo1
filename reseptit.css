@@ -81,7 +81,7 @@ body {
   li:hover::after {
     width: 100%;
     border: 1px solid white;
-    
+
   }
   
   ul {
@@ -112,5 +112,9 @@ footer {
 
 html {
     scroll-behavior: smooth;
+}
+
+body {
+    color:beige;
 }
 
