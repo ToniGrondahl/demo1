@@ -115,7 +115,7 @@ html {
 }
 
 body {
-    background-color: beige;
+    background-color:wheat
 }
 
 .thumbnail:hover {
@@ -126,6 +126,6 @@ body {
     height:auto;
     display:block;
     z-index:999;
-    transition: 2s;;
+    transition: 1s;
 }
 
