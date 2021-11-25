@@ -120,6 +120,7 @@ h1 {
 p {
     padding-left: 20px;
     padding-top: 30px;
+    float: right;
 }
 
 body {
@@ -239,3 +240,4 @@ li {
     display: table;
     clear: both;
   }
+
