@@ -80,6 +80,8 @@ body {
 
   li:hover::after {
     width: 100%;
+    border: 1px solid white;
+    
   }
   
   ul {
