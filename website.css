@@ -125,6 +125,12 @@ h1 {
     opacity: 1;
   }
 
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
 p {
     xpadding-left: 20px;
     xpadding-top: 30px;
@@ -243,10 +249,3 @@ li {
     xwidth: 70px;
     xheight: 70px;
   }
-
-  .row:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
-
