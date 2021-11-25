@@ -120,8 +120,8 @@ body {
 
 .thumbnail:hover {
     position:relative;
-    top:-25px;
-    left:-35px;
+    xtop:-25px;
+    xleft:-35px;
     width: 300px;
     height:auto;
     display:block;
