@@ -90,25 +90,22 @@ body {
     margin: 0;
   }
 
-  a:active {
-      content: "";
-      position:absolute;
-      left: 7%;
-      right: 25%;
-      bottom: 0;
-      transition: all .5s;
-      border: 2px solid white;;
-  }
+  .navborder {
+    content: "";
+    position: absolute;
+    left: 7%;
+    right: 25%;
+    bottom: 0;
+    border: 2px solid white;
+ }
 
   a:hover::after {
-    width: 70%;
     content: "";
     position:absolute;
     left: 7%;
     right: 25%;
     bottom: 0;
-    transition: all .5s;
-    border: 2px solid white;;
+    border: 2px solid white;
   }
 
 footer {
