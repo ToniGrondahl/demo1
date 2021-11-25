@@ -80,7 +80,7 @@ h1 {
     height: 15px;
     width: 15px;
     margin: 0 2px;
-    xbackground-color: #bbb;
+    background-color: black
     border-radius: 50%;
     display: inline-block;
     transition: background-color 0.6s ease;
