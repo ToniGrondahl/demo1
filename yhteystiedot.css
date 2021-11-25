@@ -85,10 +85,10 @@ li {
  a:hover::after {
     content: "";
     position: absolute;
-    left: 25%;
+    left: 7%;
     right: 25%;
     bottom: 0;
-    border: 1px solid white;
+    border: 2px solid white;
   }
 
   footer {
