@@ -48,9 +48,9 @@ body {
  }
 
 .column {
-    float: right;
-    width: 50%;
-    padding: 10px;
+    float: left;
+    xwidth: 50%;
+    xpadding: 10px;
 }
 
 /* clear floats after the columns */
@@ -61,7 +61,7 @@ body {
 }
 
 h2 {
-    font-size: 30px;
+    font-size: 20px;
 }
 
 #header {
@@ -121,3 +121,6 @@ li {
     padding-top: 10px;
 }
 
+.bi-envelope {
+  text-align: right;
+}
