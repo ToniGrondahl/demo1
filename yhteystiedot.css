@@ -39,8 +39,21 @@ body {
     background-color:seashell;
  }
 
+.column {
+    float: right;
+    width: 50%;
+    padding: 10px;
+}
+
+/* clear floats after the columns */
+.rowafter {
+    content:"";
+    display: table;
+    clear: both;
+}
+
 h2 {
-    padding-left: 30px;
+    font-size: 30px;
 }
 
 #header {
