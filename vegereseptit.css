@@ -1,1 +1,118 @@
+a {
+    font-size: 25px;
+    color: black;
+}
 
+a:hover {
+    color: green;
+}
+
+.left {
+    width: 40%;
+    height: 40%;
+    text-align: left;
+}
+
+body {
+    background-image: url('food stock image.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: lightcyan;
+}
+
+h1 {
+    text-shadow: 7px 3px 4px #525252;
+    font-size: 70px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+    margin: 0;
+}
+
+h2 {
+    text-align: center;
+    font-style: oblique;
+    padding-bottom: 20px;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+img {
+    padding-top: 20px;
+}
+
+p {
+    padding-top: 20px;
+}
+
+#wrapper {
+    width: 80%;
+    margin: 0 auto;
+    background-color:seashell;
+ }
+
+ .nav .current {
+     background-color: white;
+ }
+
+ li {
+    font-family: Arial, Helvetica, sans-serif;
+    color: grey;
+    float: left;
+    position: relative;
+    overflow: hidden;
+    padding-right: 30px;
+  }
+  
+  li::after {
+    background-color: white
+    content: "";
+    width: 0;
+    height: 3px;
+    left: 0;
+    bottom: 0;
+    transition: width 0.5s ease 0s;
+    position: absolute;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .navborder {
+    content: "";
+    position: absolute;
+    left: 7%;
+    right: 25%;
+    bottom: 0;
+    border: 2px solid white;
+ }
+
+  a:hover::after {
+    content: "";
+    position:absolute;
+    left: 7%;
+    right: 25%;
+    bottom: 0;
+    border: 2px solid white;
+  }
+
+footer {
+    text-align: center;
+    color: white;
+    padding-top: 10px;
+}
+
+.form-control {
+    padding-left: 20px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
