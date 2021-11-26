@@ -7,14 +7,17 @@ a:hover {
     color: green;
 }
 
-.navbar-brand img {
-
-}
-
 .left {
     width: 40%;
     height: 40%;
     text-align: left;
+}
+
+body {
+    background-image: url('food stock image.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: lightcyan;
 }
 
 h1 {
@@ -44,12 +47,6 @@ img {
 
 p {
     padding-top: 20px;
-}
-
-body {
-    background-image: url('food stock image.jpg');
-    background-repeat: no-repeat;
-    background-attachment:fixed
 }
 
 #wrapper {
@@ -114,19 +111,10 @@ footer {
     padding-top: 10px;
 }
 
-html {
-    scroll-behavior: smooth;
-}
-
-body {
-    background-color: lightcyan;
-}
-
 .form-control {
     padding-left: 20px;
 }
 
-col {
-    border-width: 1px;
-    border: black;
+html {
+    scroll-behavior: smooth;
 }
