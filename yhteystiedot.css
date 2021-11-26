@@ -28,6 +28,9 @@ img {
 
 body {
     background-image: url('food stock image.jpg');
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    background-color: lightcyan;
 }
 
 #wrapper {

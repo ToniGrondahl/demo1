@@ -17,6 +17,13 @@ a {
     padding-bottom: 10px;
 }
 
+body {
+    background-image: url('food stock image.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: lightcyan;
+}
+
 h1 {
     text-shadow: 7px 3px 4px #525252;
     font-size: 70px;
@@ -31,7 +38,7 @@ h1 {
   
           /* Slideshow container */
 .slideshow-container {
-    max-width: 400px;
+    max-width: 200px;
     position: relative;
     margin: auto;
   }
@@ -40,7 +47,7 @@ h1 {
   .prev, .next {
     cursor: pointer;
     position: absolute;
-    top: 50%;
+    top: 70%;
     width: auto;
     padding: 16px;
     margin-top: -22px;
@@ -51,7 +58,7 @@ h1 {
     border-radius: 0 3px 3px 0;
     user-select: none;
   }
-  
+
   /* Position the "next button" to the right */
   .next {
     right: 0;
@@ -65,7 +72,7 @@ h1 {
   
   /* Caption text */
   .text {
-    color: #f2f2f2;
+    color: black;
     font-size: 15px;
     padding: 8px 12px;
     position: absolute;
@@ -132,16 +139,11 @@ h1 {
 }
 
 p {
-    xpadding-left: 20px;
-    xpadding-top: 30px;
-    float: right;
-    text-align: right;
-}
-
-body {
-    background-image: url('food stock image.jpg');
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-size: 25px;
 }
 
 #wrapper {
@@ -219,7 +221,7 @@ li {
 
  a:hover::after {
     content: "";
-    position: absolute;
+    position:absolute;
     left: 7%;
     right: 25%;
     bottom: 0;
@@ -249,3 +251,8 @@ li {
     xwidth: 70px;
     xheight: 70px;
   }
+
+  .slideshow-container {
+    border-width: 5px;
+    border: black;
+}

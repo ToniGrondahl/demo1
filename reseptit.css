@@ -125,3 +125,8 @@ body {
 .form-control {
     padding-left: 20px;
 }
+
+col {
+    border-width: 1px;
+    border: black;
+}

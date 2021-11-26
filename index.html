@@ -36,95 +36,24 @@
       </div>
       <hr>
       <main>
-
         <div class="container">
-            <div class="row">
-                <div class="col-sm-6"><div class="slideshow-container"></div>
-
-                  <div class="mySlides">
-                    <div class="numbertext">1 / 5</div>
-                    <img src="puuroslide.JPG" style="width:100%">
-                    <div class="text">Hedelmäinen kaurapuuro</div>
+          <div class="row">
+              <div class="col-xs-12 col-md-12">
+                <p> Onko vähän rahaa, aikaa ja kova nälkä? Opiskelijan ruokavalio voi olla paljon muutakin
+                    kuin pastaa ja ketsuppia tai iänikuista kaurapuuroa. Tuoretta ruokaa on helppo ja nopea 
+                    valmistaa, eikä se tule kalliiksi. Jopa tiskaaminen pysyy kohtuuden rajoissa. Itse laitettu
+                    ruoka on terveellisempää kuin pikaruoka tai valmiit einekset ja terveellistä myös kukkarolle.
+                    Tälle sivustolle olen koonnut muutaman helpon lempireseptini opiskelijoiden kiireiseen arkeen
+                    ja budjettiin sopivaksi, tai ihan kelle tahansa joka haluaa nauttia hyvästä ja terveellisestä 
+                    ruoasta edullisesti. Reseptit välilehdeltä löydät reseptejä eri tilanteisiin viidestä eri 
+                    kategoriasta: <b><em>Tuhti aamiainen, Mukaan otettavaksi, Nopea päivällinen, Parempaa kuin pikaruoka,
+                    ja Bravuurinumero.</b></em> Vegereseptit välilehdeltä löytyy taas muutama vaihtoehto vegaaneille. <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-emoji-smile" viewBox="0 0 16 16">
+                      <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+                      <path d="M4.285 9.567a.5.5 0 0 1 .683.183A3.498 3.498 0 0 0 8 11.5a3.498 3.498 0 0 0 3.032-1.75.5.5 0 1 1 .866.5A4.498 4.498 0 0 1 8 12.5a4.498 4.498 0 0 1-3.898-2.25.5.5 0 0 1 .183-.683zM7 6.5C7 7.328 6.552 8 6 8s-1-.672-1-1.5S5.448 5 6 5s1 .672 1 1.5zm4 0c0 .828-.448 1.5-1 1.5s-1-.672-1-1.5S9.448 5 10 5s1 .672 1 1.5z"/>
+                    </svg> <br>
+                    <i>- Toni</i></p>
                   </div>
-                  
-                  <div class="mySlides">
-                    <div class="numbertext">2 / 5</div>
-                    <img src="wrapslide.JPG" style="width:100%">
-                    <div class="text">Kalkkunawrap</div>
-                  </div>
-                  
-                  <div class="mySlides">
-                    <div class="numbertext">3 / 5</div>
-                    <img src="makaroonilaatikkoslide.JPG" style="width:100%">
-                    <div class="text">Makaroonilaatikko</div>
-                  </div>
-                  
-                  <div class="mySlides">
-                    <div class="numbertext">4 / 5</div>
-                    <img src="burgerslide.JPG" style="width:100%">
-                    <div class="text">Naudanlihapurilainen</div>
-                  </div>
-                  
-                  <div class="mySlides">
-                    <div class="numbertext">5 / 5</div>
-                    <img src="kanaslide.JPG" style="width:100%">
-                    <div class="text">Uunibroileri</div>
-                  </div>
-                  
-                  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-                  <a class="next" onclick="plusSlides(1)">&#10095;</a>
-                  
-                  </div>
-                  <br>
-                  
-                  <div style="text-align:center">
-                    <span class="dot" onclick="currentSlide(1)"></span> 
-                    <span class="dot" onclick="currentSlide(2)"></span> 
-                    <span class="dot" onclick="currentSlide(3)"></span> 
-                    <span class="dot" onclick="currentSlide(4)"></span> 
-                    <span class="dot" onclick="currentSlide(5)"></span> 
-                  </div>
-                  
-                  <script>
-                  var slideIndex = 1;
-                  showSlides(slideIndex);
-                  
-                  function plusSlides(n) {
-                    showSlides(slideIndex += n);
-                  }
-                  
-                  function currentSlide(n) {
-                    showSlides(slideIndex = n);
-                  }
-                  
-                  function showSlides(n) {
-                    var i;
-                    var slides = document.getElementsByClassName("mySlides");
-                    var dots = document.getElementsByClassName("dot");
-                    if (n > slides.length) {slideIndex = 1}    
-                    if (n < 1) {slideIndex = slides.length}
-                    for (i = 0; i < slides.length; i++) {
-                        slides[i].style.display = "none";  
-                    }
-                    for (i = 0; i < dots.length; i++) {
-                        dots[i].className = dots[i].className.replace(" active", "");
-                    }
-                    slides[slideIndex-1].style.display = "block";  
-                    dots[slideIndex-1].className += " active";
-                  }
-                  </script>
-                <div class="col-sm-6"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse lobortis id ex et consequat.
-                    Proin rhoncus, velit a suscipit placerat, diam libero efficitur orci, vitae finibus dolor mauris semper enim. 
-                    Ut blandit, magna vitae mollis convallis, quam turpis ultricies dui, vel consequat dui sem at eros. 
-                    Aenean tincidunt magna ac nunc dictum, id tempus libero dapibus. Curabitur ac laoreet neque. 
-                    Sed vitae nunc sed velit sollicitudin ullamcorper non eu dui. Morbi consectetur tortor id leo rhoncus, 
-                    vel consectetur ipsum tempor. Donec et nibh at dui semper aliquet. Praesent volutpat varius tortor sit amet lobortis.
-                    Sed pharetra velit facilisis massa tempor, quis tincidunt sem iaculis. Praesent suscipit, risus a elementum gravida, 
-                    ibero odio tristique dui,vel mattis tellus nibh vitae eros. In hac habitasse platea dictumst. 
-                    Interdum et malesuada fames ac ante ipsum primis in faucibus.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse lobortis id ex et consequat.
-                    Proin rhoncus, velit a suscipit placerat, diam libero efficitur orci, vitae finibus dolor mauris semper enim. 
-                    Ut blandit, magna vitae mollis convallis, quam turpis ultricies dui, vel consequat dui sem at eros.</p></div>
-        </div>
+              </div>
         </div>
       </main>
 
