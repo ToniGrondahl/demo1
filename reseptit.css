@@ -117,6 +117,10 @@ footer {
     padding-left: 20px;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 @media only screen and (max-width: 600px) {
     body {
     background-image: url('food stock image.jpg');
@@ -125,7 +129,3 @@ footer {
     background-color: lightcyan;
     padding: 20px;
     }
-
-html {
-    scroll-behavior: smooth;
-}
