@@ -32,24 +32,6 @@ li {
    position: absolute;
  }
 
- .sr-only {
-    content: "";
-    position: absolute;
-    left: 7%;
-    right: 25%;
-    bottom: 0;
-    border: 2px solid white;
- }
-
- .navborder {
-    content: "";
-    position: absolute;
-    left: 7%;
-    right: 25%;
-    bottom: 0;
-    border: 2px solid white;
- }
-
  a:hover::after {
     content: "";
     position:absolute;
@@ -81,7 +63,7 @@ h1 {
     padding: 20px;
 }
 
-  .row:after {
+.row:after {
     content: "";
     display: table;
     clear: both;
