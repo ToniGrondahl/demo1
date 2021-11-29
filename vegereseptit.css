@@ -20,7 +20,6 @@ a:hover {
 h1 {
     text-shadow: 7px 3px 4px #525252;
     font-size: 5vw;
-    line-height: 5vw;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     padding: 20px;
@@ -42,6 +41,7 @@ h2 {
 
 img {
     padding-top: 20px;
+    max-width: 100%;
 }
 
 p {
