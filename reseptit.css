@@ -101,11 +101,11 @@ ul {
     bottom: 0;
  }
 
-a:hover::before{
+a:hover::after{
     content: "";
     position:absolute;
     left: 7%;
-    right: 25%;
+    right: 16%;
     bottom: 0;
     border: 2px solid white;
   }
