@@ -1,6 +1,7 @@
 a {
     font-size: 25px;
     color: black;
+    padding-left: 0px;
 }
 
 a:hover {
@@ -8,19 +9,12 @@ a:hover {
 }
 
 .left {
-    width: 70%;
-    height: 40%;
-    text-align: left;
+    max-width: 250px;
+    max-height: 250px;
+    padding-right: 100px;
+    padding-left: 5px;
     padding-bottom: 15px;
-    border: none;
-    }
-
-body {
-    background-image: url('food stock image.jpg');
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-color: lightcyan;
-    padding: 20px;
+    padding-top: 15px;
 }
 
 h1 {
@@ -31,14 +25,18 @@ h1 {
     padding: 20px;
 }
 
+body {
+    background-image: url('food stock image.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: lightcyan;
+    padding: 20px;
+}
+
 h2 {
     text-align: center;
     font-style: oblique;
     padding-bottom: 20px;
-}
-
-h3 {
-    xpadding-bottom: 10px;
 }
 
 img {
@@ -99,7 +97,7 @@ p {
     content: "";
     position:absolute;
     left: 7%;
-    right: 25%;
+    right: 16%;
     bottom: 0;
     border: 2px solid white;
   }
