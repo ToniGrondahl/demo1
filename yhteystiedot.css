@@ -48,7 +48,6 @@ body {
     float: left;
 }
 
-/* clear floats after the columns */
 .rowafter {
     content:"";
     display: table;
@@ -115,4 +114,4 @@ footer {
       background-attachment: fixed;
       background-color: lightcyan;
       padding: 20px;
-  }
+    }
