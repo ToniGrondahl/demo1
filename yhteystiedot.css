@@ -11,7 +11,6 @@ a {
     padding-top: 15px;
 }
 
-
 h1 {
     text-shadow: 7px 3px 4px #525252;
     font-size: 70px;
@@ -24,6 +23,11 @@ h1 {
 p {
   font-size: 20px;
   padding-top: 10px;
+}
+
+.col-sm-5 {
+  padding-left: 40px;
+  padding-right: 40px;
 }
 
 body {
@@ -102,10 +106,6 @@ footer {
     text-align: center;
     color: white;
     padding-top: 10px;
-}
-
-.bi-envelope {
-  text-align: right;
 }
 
 @media only screen and (max-width: 600px) {
