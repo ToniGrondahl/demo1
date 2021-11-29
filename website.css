@@ -12,10 +12,6 @@ a {
     padding-top: 15px;
 }
 
-.nav .current {
-    xbackground-color: white;
-}
-
 li {
    font-family: Arial, Helvetica, sans-serif;
    color: grey;
